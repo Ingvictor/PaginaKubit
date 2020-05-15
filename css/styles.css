@@ -53,6 +53,8 @@ h4{font-size: 2.6rem;}
   margin-top: 3rem;
   display:inline-block;
   text-align: center;
+  border:none;
+  cursor: pointer;
 }
 
 .boton-amarillo{
@@ -435,14 +437,20 @@ textarea{
   height: 10rem;
 }
 
-.iconos-contacto{
-  display: flex;
-  list-style: none;
-  justify-content:space-between;
-  padding: 0rem;
+.infocontacto{
+
 }
+
+.iconos-contacto{
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 10% 50%;
+  grid-column-gap: 2rem;
+}
+
+
 .iconos-contacto li img{
-  margin-right: : 2.5rem;
+}
 
-
+.iconos-contacto p{
 }
