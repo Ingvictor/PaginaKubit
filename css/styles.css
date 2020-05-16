@@ -171,7 +171,9 @@ h4{font-size: 2.6rem;}
   text-align: center;
 }
 @media (min-width:768px){
+  .icon{
   flex-basis: calc(33.3% - 1rem);
+  }
 }
 
 .icon h3{
@@ -189,7 +191,6 @@ h4{font-size: 2.6rem;}
 .anuncio{
   flex-shrink: 0;
   flex-basis: calc(33.3% - 1rem);
-
   border: 1px solid #B5B5B5;
   background-color: #F5F5F5;
   margin-bottom: 2rem;
@@ -215,7 +216,7 @@ h4{font-size: 2.6rem;}
 }
 
 .iconos-caracteristicas{
-  list-style: none;
+  list-style:none;
   padding: 0;
   display: flex;
   justify-content: space-evely;
