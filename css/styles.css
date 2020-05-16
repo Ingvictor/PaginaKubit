@@ -16,9 +16,9 @@ img{
   max-width: 100%;
 }
 .contenedor{
-  max-width: 120rem;/*es igual a 1200 px */
-  margin-left: 15rem;
-  margin-right: 15rem;
+  max-width: 100rem;/*es igual a 1000 px */
+  margin: 0 auto;
+  width: 95%
 }
 
 h1{font-size: 3.8rem;}
@@ -55,8 +55,15 @@ h4{font-size: 2.6rem;}
   text-align: center;
   border:none;
   cursor: pointer;
+  display: block;
+  flex: 0 0 100%;
 }
-
+@media (min-width: 768px){
+  .boton{
+    display: inline-block;
+    flex: 0 0 auto;
+  }
+}
 .boton-amarillo{
   background-color: #E08709;
 }
@@ -86,8 +93,13 @@ h4{font-size: 2.6rem;}
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 1rem;
+  text-align: center;
 }
-
+@media (min-width:768px){
+  .contenido-header{
+    text-align: left;
+  }
+}
 .contenido-header h1{
   color:white;
   padding-bottom: 2rem;
@@ -95,10 +107,14 @@ h4{font-size: 2.6rem;}
   line-height: 5rem;
 }
 .barra{
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10rem;
+  padding-top: 12rem;
+}
+@media (min-width:768px){
+  .barra{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .barra-nosotros{
@@ -113,12 +129,7 @@ h4{font-size: 2.6rem;}
   height: 10rem;
   margin-top:0;
 }
-.navegacion-index a{
-  color: white;
-  text-decoration: none;
-  font-size: 2rem;
-  margin-right: 2rem;
-}
+
 .navegacion a{
   color: black;
   text-decoration: none;
@@ -126,6 +137,21 @@ h4{font-size: 2.6rem;}
   margin-right: 2rem;
 }
 
+.navegacion-index a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+}
+@media (min-width:768px){
+  .navegacion-index a{
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .navegacion a:last-of-type{
+    margin:0;
+  }
+}
 .navegacion a:hover{
  color:#71B100;
 }
@@ -133,9 +159,6 @@ h4{font-size: 2.6rem;}
  color:#71B100;
 }
 
-.navegacion a:last-of-type{
-  margin:0;
-}
 
 /*Iconos nosotros*/
 .iconos-nosotros{
