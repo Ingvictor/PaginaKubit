@@ -111,6 +111,7 @@ h4{font-size: 2.6rem;}
     height: 0rem;
     text-shadow: transparent;
     color: transparent;
+    margin: 0;
   }
 
 @media (min-width:768px) {
@@ -124,7 +125,7 @@ h4{font-size: 2.6rem;}
 
 
 .barra{
-  margin-top: 25rem;
+  margin-top: 30rem;
 }
 @media (min-width:768px){
   .barra{
@@ -197,7 +198,13 @@ h4{font-size: 2.6rem;}
 
 .icon h3{
   text-transform:uppercase;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
   }
+.icon p{
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
 
   /** Anuncios **/
   @media (min-width:768px){
