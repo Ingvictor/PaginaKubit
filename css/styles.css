@@ -80,10 +80,9 @@ h4{font-size: 2.6rem;}
 }
 
 .site-header.inicio{
-background-image: url(img/logo3.png);
-background-repeat: no-repeat;
- background-size: 375px 267px;
-
+  background-image: url(img/logo3.png);
+  background-repeat: no-repeat;
+  background-size: 375px 267px;
 }
 @media (min-width:768px){
   .site-header.inicio{
@@ -109,6 +108,7 @@ background-repeat: no-repeat;
 }
 
 .contenido-header h1{
+    height: 0rem;
     text-shadow: transparent;
     color: transparent;
   }
@@ -124,7 +124,7 @@ background-repeat: no-repeat;
 
 
 .barra{
-  padding-top: 12rem;
+  margin-top: 25rem;
 }
 @media (min-width:768px){
   .barra{
@@ -149,6 +149,7 @@ background-repeat: no-repeat;
 }
 
 .navegacion a{
+  margin-bottom: 10rem;
   color: black;
   text-decoration: none;
   font-size: 2rem;
@@ -156,7 +157,7 @@ background-repeat: no-repeat;
 }
 
 .navegacion-index a{
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 2rem;
   display: block;
