@@ -101,6 +101,7 @@ h4{font-size: 2.6rem;}
   padding-bottom: 1rem;
   text-align: center;
 }
+
 @media (min-width:768px){
   .contenido-header{
     text-align: left;
@@ -116,24 +117,25 @@ h4{font-size: 2.6rem;}
 
 @media (min-width:768px) {
   .contenido-header h1{
-    color:white;
-    padding-bottom: 2rem;
+    color: white;
+    padding-bottom: 5rem;
     max-width: 50rem;
     line-height: 5rem;
+    height: 15rem;
   }
 }
-
 
 .barra{
   margin-top: 30rem;
 }
+
 @media (min-width:768px){
   .barra{
+    margin-top: 10rem;
     display:flex;
     justify-content: space-between;
     align-items: center;
   }
-
 }
 
 .barra-nosotros{
@@ -157,14 +159,17 @@ h4{font-size: 2.6rem;}
   margin-right: 2rem;
 }
 
+
 .navegacion-index a{
   color: black;
   text-decoration: none;
   font-size: 2rem;
   display: block;
 }
+
 @media (min-width:768px){
   .navegacion-index a{
+    color: white;
     display: inline-block;
     margin-right: 2rem;
   }
@@ -294,19 +299,33 @@ justify-content: space-between;
   flex-basis: calc(40% - 2rem);
   }
 }
+
 .Entrada-blog{
-display: flex;
-justify-content: space-between;
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
+@media (min-width:768px){
+  .Entrada-blog{
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .Entrada-blog .imagen{
   flex-basis: 40%;
+  margin-left: 5rem;
+  margin-right:5rem;
 }
 
-.Entrada-blog .texto-entrada{
-  flex-basis: calc(60% - 3rem);
+@media (min-width:768px){
+  .Entrada-blog .imagen{
+    flex-basis: 40%;
+  }
+
+  .Entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+  }
 }
+
 
 .texto-entrada h4{
   margin: 0;
