@@ -131,7 +131,7 @@ h4{font-size: 2.6rem;}
 
 @media (min-width:768px){
   .barra{
-    margin-top: 10rem;
+    margin-top: 13rem;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -174,7 +174,9 @@ h4{font-size: 2.6rem;}
     font-size: 2rem;
     margin-right: 2rem;
   }
+  
 }
+
 
 
 .navegacion-index a{
