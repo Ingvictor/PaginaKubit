@@ -21,7 +21,8 @@ img{
   width: 95%
 }
 
-h1{font-size: 3.8rem;}
+h1{font-size: 3.8rem;
+  margin-top: 0}
 h2{font-size: 3.2rem;}
 h3{font-size: 3rem;}
 h4{font-size: 2.6rem;}
@@ -98,7 +99,7 @@ h4{font-size: 2.6rem;}
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
   text-align: center;
 }
 
@@ -174,7 +175,7 @@ h4{font-size: 2.6rem;}
     font-size: 2rem;
     margin-right: 2rem;
   }
-  
+
 }
 
 
@@ -493,30 +494,67 @@ h4{font-size: 2.6rem;}
 *************************
 **************************/
 .primaria{
-  background-color: #87CEEB;
+  margin-left: 1rem;
+  border:solid #ED40A9 3px;
   border-radius: 1rem;
   margin-bottom: 2rem;
   margin-right: 40rem;
 }
+.primaria h3{
+  background-color: #ED40A9;
+  color:white;
+  padding-left: 2rem;
+}
+.primaria p{
+  color:black;
+  padding-left:2rem;
+  padding-right: 2rem;
+}
 .secundaria{
-  background-color: #ff9386;
+  margin-right: 1rem;
+  border:solid #00BED6 3px;
   border-radius: 1rem;
   margin-bottom: 2rem;
   margin-left: 40rem;
 }
-
+.secundaria h3{
+  background-color: #00BED6;
+  color:white;
+  padding-left: 2rem;
+}
+.secundaria p{
+  color:black;
+  padding-left:2rem;
+  padding-right: 2rem;
+}
 .preparatoria {
-  background-color: #FFBCD9;
+  margin-left: 1rem;
+  border:solid #5C5B5F 3px;
   border-radius: 1rem;
   margin-bottom: 2rem;
   margin-right: 40rem;
 }
+.preparatoria h3{
+  background-color: #5C5B5F;
+  color:white;
+  padding-left: 2rem;
+}
+.preparatoria p{
+  color:black;
+  padding-left:2rem;
+  padding-right: 2rem;
+}
 
 .resumen-curso{
-  color: white;
-  padding: 1rem 2rem 1rem 2rem;
+  color: black;
+  padding: 0rem 0rem 0rem 0rem;
 }
-.iconos-caracteristicas{
+.iconos-caracteristicas-curso {
+  display: flex;
+  list-style: none;
+}
+.iconos-caracteristicas-curso li img{
+  margin-left: 2.5rem;
 }
 
 .seccion{
