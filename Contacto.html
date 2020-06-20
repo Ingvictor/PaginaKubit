@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kubit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header-curso">
+    <div class="contenedor contenido-header">
+      <div class="barra-nosotros">
+        <a href="index.html">
+          <img class="logo-nosotros" src="css/img/logo3.png" alt="Logo Kubit">
+        </a>
+        <nav class="navegacion-curso">
+          <a href="Nosotros.html">Nosotros</a>
+          <a href="Cursos.html">Cursos</a>
+          <a href="Blog.html">Blog</a>
+          <a href="Contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!--******** main*******************
+  ************************************
+  **********************************-->
+
+  <h1 class="fw-300 centrar-texto">Contactanos</h1>
+  <img src="css/img/destacada3.jpg" alt="">
+
+  <main class="contenedor section contenido-centrado">
+    <h2 class="fw300 centrar-texto">Llena el formulario de contacto</h2>
+    <div class="contenido-nosotros">
+
+      <form action="">
+        <fieldset>
+          <legend>Información Personal</legend>
+          <label for="Nombre">Nombre:</label>
+          <input type="text" id="Nombre" placeholder="Tu nombre">
+
+          <label for="Email">Email:</label>
+          <input type="email" id="Email" placeholder="Tu correo electrónico" required>
+
+          <label for="Teléfono">Teléfono:</label>
+          <input type="tel" id="Teléfono" placeholder="Tu número telefónico" required>
+
+          <label for="Comentarios">Comentarios:</label>
+          <textarea id="Comentarios"></textarea>
+
+        </fieldset>
+
+        <!--***********Segundo formulario*****************
+        *************************************************
+        ***********************************************-->
+
+        <fieldset>
+          <legend>Información Sobre Curso </legend>
+          <label for="Seccion">Sección</label>
+          <select id="Seccion">
+            <option value="" disabled selected>-- Seleccione --</option>
+            <option value="Primaria">Primaria</option>
+            <option value="Secundaria">Secundaria</option>
+            <option value="Preparatoria">Preparatoria</option>
+          </select>
+
+          <label for="Curso">Curso</label>
+          <select id="Curso">
+            <option value="" disabled selected> -- Seleccione --</option>
+            <option value="Robótica">Robótica</option>
+            <option value="Videojuegos">Videojuegos</option>
+            <option value="Diseño 3D">Diseño 3D</option>
+            <option value="Apps">Apps</option>
+            <option value="Diseño de páginas web">Diseño de páginas web</option>
+
+          </select>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar" class="boton boton-verde">
+      </form>
+
+      <div class="infocontacto">
+        <div class="iconos-contacto">
+          <img src="css/img/Telefono.png" alt="Imagen telefono" class="tamaño-icono">
+          <p>928-09-35</p>
+          <img src="css/img/Whatsapp.png" alt="Imagen Whatsapp" class="tamaño-icono">
+          <p>55-87-48-93-12</p>
+          <img src="css/img/Correo.png" alt="Imagen Correo" class="tamaño-icono"></li>
+          <p>contacto@kubit.mx</p>
+        </div>
+        
+      </div>
+    </div>
+
+  </main>
+
+
+
+  <!--**********Footer*****************
+  *************************************
+  **********************************-->
+
+  <footer class="site-footer seccion">
+    <div class="contenedor contenedor-footer">
+      <nav class="navegacion-index">
+        <a href="Nosotros.html">Nosotros</a>
+        <a href="Cursos.html">Cursos</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contacto.html">Contacto</a>
+      </nav>
+      <p class="copyright">Todos los Derechos Reservados 2020 &reg;</p>
+    </div>
+  </footer>
+</body>
+</html>
