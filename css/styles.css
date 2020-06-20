@@ -66,11 +66,19 @@ h4{font-size: 2.6rem;}
   }
 }
 .boton-amarillo{
+<<<<<<< HEAD
   background-color: #F5A800;
 }
 
 .boton-verde{
   background-color: #89DC65;
+=======
+  background-color: #E08709;
+}
+
+.boton-verde{
+  background-color: #71B100;
+>>>>>>> c912dd109e8e7584739de5db7ed52b1f02d39eac
 }
 
 
@@ -360,7 +368,11 @@ h4{font-size: 2.6rem;}
   display: block;
   width: 15rem;
   height: .5rem;
+<<<<<<< HEAD
   background-color: #89DC65;
+=======
+  background-color: #71B100;
+>>>>>>> c912dd109e8e7584739de5db7ed52b1f02d39eac
   margin-top: 1rem;
 }
 
@@ -380,7 +392,11 @@ h4{font-size: 2.6rem;}
 /*testimoniales*/
 
 .testimonial{
+<<<<<<< HEAD
   background-color: #89DC65;
+=======
+  background-color: #71B100;
+>>>>>>> c912dd109e8e7584739de5db7ed52b1f02d39eac
   font-size: 2rem;
   padding:2rem;
   color: white;
