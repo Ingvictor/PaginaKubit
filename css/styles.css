@@ -66,19 +66,11 @@ h4{font-size: 2.6rem;}
   }
 }
 .boton-amarillo{
-<<<<<<< HEAD
-  background-color: #F5A800;
-}
-
-.boton-verde{
-  background-color: #89DC65;
-=======
   background-color: #E08709;
 }
 
 .boton-verde{
   background-color: #71B100;
->>>>>>> c912dd109e8e7584739de5db7ed52b1f02d39eac
 }
 
 
@@ -209,7 +201,10 @@ h4{font-size: 2.6rem;}
   color:#71B100;
 }
 .navegacion-index a:hover{
-  color:#71B100;
+  color:#5C5B5F;
+}
+.navegacion-curso a:hover{
+  color:#5C5B5F;
 }
 
 
@@ -368,7 +363,7 @@ h4{font-size: 2.6rem;}
   display: block;
   width: 15rem;
   height: .5rem;
-  background-color: #89DC65;
+  background-color: #71B100;
   margin-top: 1rem;
 }
 
@@ -388,11 +383,7 @@ h4{font-size: 2.6rem;}
 /*testimoniales*/
 
 .testimonial{
-<<<<<<< HEAD
-  background-color: #89DC65;
-=======
   background-color: #71B100;
->>>>>>> c912dd109e8e7584739de5db7ed52b1f02d39eac
   font-size: 2rem;
   padding:2rem;
   color: white;
@@ -505,73 +496,6 @@ h4{font-size: 2.6rem;}
 /************CURSO*********
 *************************
 **************************/
-.primaria{
-  margin-left: 1rem;
-  border:solid #ED40A9 3px;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-  margin-right: 40rem;
-}
-.primaria h3{
-  background-color: #ED40A9;
-  color:white;
-  padding-left: 2rem;
-}
-.primaria p{
-  color:black;
-  padding-left:2rem;
-  padding-right: 2rem;
-}
-.secundaria{
-  margin-right: 1rem;
-  border:solid #00BED6 3px;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-  margin-left: 40rem;
-}
-.secundaria h3{
-  background-color: #00BED6;
-  color:white;
-  padding-left: 2rem;
-}
-.secundaria p{
-  color:black;
-  padding-left:2rem;
-  padding-right: 2rem;
-}
-.preparatoria {
-  margin-left: 1rem;
-  border:solid #5C5B5F 3px;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-  margin-right: 40rem;
-}
-.preparatoria h3{
-  background-color: #5C5B5F;
-  color:white;
-  padding-left: 2rem;
-}
-.preparatoria p{
-  color:black;
-  padding-left:2rem;
-  padding-right: 2rem;
-}
-
-.resumen-curso{
-  color: black;
-  padding: 0rem 0rem 0rem 0rem;
-}
-.iconos-caracteristicas-curso {
-  display: flex;
-  list-style: none;
-}
-.iconos-caracteristicas-curso li img{
-  margin-left: 2.5rem;
-}
-
-.seccion{
-  margin-block-start: 0rem;
-}
 .site-header-curso{
   background-color: white;
 
@@ -581,6 +505,14 @@ h4{font-size: 2.6rem;}
   text-decoration: none;
   font-size: 2rem;
   margin-right: 2rem;
+}
+
+.contenido-curso{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 2rem;
+  border: 1px solid black; 
 }
 
 
